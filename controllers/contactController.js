@@ -1,5 +1,5 @@
 const asyncHandler = require("express-async-handler");
-const User = require("../backend/models/userModel");
+const User = require("../models/userModel");
 const sendEmail = require("../utils/sendEmail");
 
 // SEND MESSAGE
