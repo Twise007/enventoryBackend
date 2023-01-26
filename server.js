@@ -34,7 +34,7 @@ app.use("/api/contactus",contactRoute);
 
 //routes
     app.get("/", (req, res) => {
-        res.send("Home page")
+        res.send("Enventory home page")
     }); 
 
 // Error Middleware
